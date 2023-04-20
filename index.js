@@ -5,7 +5,7 @@ import env from "dotenv";
 import { Configuration, OpenAIApi } from "openai";
 
 const app = express();
-const PORT = process.env || 3080
+const PORT = process.env || 3080;
  env.config();
 
 app.use(cors());
