@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 
 // config
 const configuration = new Configuration({
-  organization: "org-IhZ8bHcsuQKwYOjy8wE2vU4P",
+  organization: "org-TBcfggypBy91GlGKtxWcrq5J",
   apiKey: process.env.API_KEY,
 });
 
